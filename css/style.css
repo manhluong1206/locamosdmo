@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat-thin";
+  src: url(../fonts/static/Montserrat-Thin.ttf);
+}
+.container-fluid {
+  background-color: #0A0C0D;
+}
+
+.header__logo {
+  margin: 27px 10px;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__notify {
+  margin: 32px 33px;
+  text-align: right;
+}
+.header__notify button {
+  border: none;
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#47C3ED), color-stop(0.01%, #FFFFFF), color-stop(4.69%, #79D3F2), color-stop(17.19%, #47C3ED), to(#1291D2));
+  background: linear-gradient(180deg, #47C3ED 0%, #FFFFFF 0.01%, #79D3F2 4.69%, #47C3ED 17.19%, #1291D2 100%);
+}
+
+.redeem__item.img {
+  text-align: center;
+}
+.redeem__item.img img {
+  width: 100%;
+}
+.redeem__item.title h3 {
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0 0;
+}
+.redeem__item.desc {
+  margin: 10px 0;
+}
+.redeem__item.desc img {
+  display: inline-block;
+}
+.redeem__item.desc p {
+  display: inline-block;
+  font-family: "Montserrat-thin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  opacity: 0.56;
+}
+
+.pagination {
+  padding: revert;
+}
