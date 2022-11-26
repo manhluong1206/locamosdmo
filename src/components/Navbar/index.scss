@@ -1,0 +1,40 @@
+#navbar {
+	.header__logo {
+		margin: 27px 10px;
+		margin: 27px 10px;
+	}
+	.header__notify {
+		margin: 32px 33px;
+		text-align: right;
+		margin: 32px 33px;
+		text-align: right;
+		button {
+			border: none;
+			border-radius: 50px;
+			background: -webkit-gradient(
+				linear,
+				left top,
+				left bottom,
+				from(#47c3ed),
+				color-stop(0.01%, #ffffff),
+				color-stop(4.69%, #79d3f2),
+				color-stop(17.19%, #47c3ed),
+				to(#1291d2)
+			);
+			background: linear-gradient(180deg, #47c3ed 0%, #ffffff 0.01%, #79d3f2 4.69%, #47c3ed 17.19%, #1291d2 100%);
+			border: none;
+			border-radius: 50px;
+			background: -webkit-gradient(
+				linear,
+				left top,
+				left bottom,
+				from(#47c3ed),
+				color-stop(0.01%, #ffffff),
+				color-stop(4.69%, #79d3f2),
+				color-stop(17.19%, #47c3ed),
+				to(#1291d2)
+			);
+			background: linear-gradient(180deg, #47c3ed 0%, #ffffff 0.01%, #79d3f2 4.69%, #47c3ed 17.19%, #1291d2 100%);
+		}
+	}
+}

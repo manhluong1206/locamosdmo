@@ -1,22 +1,21 @@
 import React from 'react'
+import './index.scss'
 
 export default function Navbar() {
     return (
         <section id="navbar" className='navbar'>
-            <div className='container'>
+            <div className='container d-flex justify-content-center'>
                 <div class="header">
                     <div class="row">
                         <div class="col">
                             <div class="header__logo">
-                                <img src={require('../../assets/images/logo-text.svg').default} className="w-100" />
-                                {/* <img src="./images/logo-text.svg" /> */}
+                                <img src={require('../../assets/images/logo-text.svg').default} className="w-100"/>
                             </div>
                         </div>
                         <div class="col">
                             <div class="header__notify">
                                 <button>
-                                    <img src={require('../../assets/images/notification.svg').default} className="w-100" />
-                                    {/* <img src="../../assets/images/notification.svg" alt="" /> */}
+                                    <img src={require('../../assets/images/notification.svg').default} className="w-100"/>
                                 </button>
                             </div>
                         </div>

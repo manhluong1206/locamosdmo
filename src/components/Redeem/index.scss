@@ -1,0 +1,38 @@
+#redeem{
+    .redeem {
+        position: relative;
+    }
+    .redeem__item.img {
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
+    .redeem__item.title {
+        h3 {
+            color: #FFFFFF;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 10px 0 0;
+        }
+    }
+    .redeem__item.desc {
+        margin: 10px 0;
+        img {
+            display: inline-block;
+        }
+        p {
+            display: inline-block;
+            font-family: "Montserrat-thin";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            color: #fff;
+            opacity: 0.56;
+        }
+    }
+}

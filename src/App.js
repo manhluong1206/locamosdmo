@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Redeem from './components/Redeem';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header>
         <Navbar/>
       </header>
+      <main>
+        <Redeem/>
+      </main>
     </div>
   );
 }
