@@ -1,49 +1,38 @@
-import React from 'react'
-import '../Redeem/index.scss'
+import React, { useState } from 'react'
+import './index.scss'
+import Popup from '../Popup';
+import Category from '../Category';
+
 
 export default function Redeem() {
+    const [showPopup, setShowPopup] = useState(false);
+    const togglePopup = () => {
+        setShowPopup(prevState => !prevState);
+    }
     return (
         <section id="redeem" className="redeem">
-            <div class="container d-flex justify-content-center">
-                <div class="row">
-                    <div class="col">
-                        <div class="redeem__grid">
-                            <div class="redeem__item">
-                                <div class="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} />
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <div className="redeem__grid">
+                            <div className="redeem__item">
+                                <div className="redeem__item img">
+                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
                                 </div>
-                                <div class="redeem__item title">
+                                <div className="redeem__item title">
                                     <h3>Flower Violet</h3>
                                 </div>
-                                <div class="redeem__item desc">
+                                <div className="redeem__item desc">
                                     <img src={require('../../assets/images/primary.svg').default} />
                                     <p>1289 Play times</p>
                                 </div>
-                                <div class="modal">
-                                    <div class="modal-content">
-                                        <span class="close">&times;</span>
-                                        <div class="modal-content-block">
-                                            <div class="modal-content-block__img">
-                                                <img src={require('../../assets/images/banner-popup.svg').default} />
-                                            </div>
-                                            <div class="modal-content-block__title">
-                                                <h3>Pasukan Tentara</h3>
-                                            </div>
-                                            <div class="modal-content-block__desc">
-                                                <p>This game is very fun telling the story of a wise prince. this game is 3d and very visualization </p>
-                                            </div>
-                                            <div class="modal-content-block__btn">
-                                                <button>Play now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
-                        <div class="redeem__grid">
+                        <div className="redeem__grid">
                             <div class="redeem__item">
                                 <div class="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} />
+                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
                                 </div>
                                 <div class="redeem__item title">
                                     <h3>Flower Violet</h3>
@@ -59,7 +48,7 @@ export default function Redeem() {
                         <div class="redeem__grid">
                             <div class="redeem__item">
                                 <div class="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} />
+                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
                                 </div>
                                 <div class="redeem__item title">
                                     <h3>Flower Violet</h3>
@@ -73,7 +62,7 @@ export default function Redeem() {
                         <div class="redeem__grid">
                             <div class="redeem__item">
                                 <div class="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} />
+                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
                                 </div>
                                 <div class="redeem__item title">
                                     <h3>Flower Violet</h3>
@@ -84,8 +73,32 @@ export default function Redeem() {
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="col-sm-12 d-flex justify-content-center align-items-center text-center">
+                            <div class="pagination">
+                                <a href="#" class="pagination__prev">
+                                    <i class="fas fa-caret-left"></i>
+                                </a>
+                                <a href="#" class="pagination active">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">...</a>
+                                <a href="#" class="pagination__next">
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                        {showPopup ?
+                            <Popup
+                                text='Click "Close Button" to hide popup'
+                                closePopup={togglePopup}
+                            />
+                            : null
+                        }
+                    <Category />
+                    
             </div>
         </section>
     )
