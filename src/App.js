@@ -9,7 +9,7 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main className='container'>
+      <main>
         <Redeem />
       </main>
       <footer>
