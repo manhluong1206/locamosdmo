@@ -9,7 +9,7 @@ export default function Footer() {
                     <div class="box">
                         <div class="container-1">
                             <span class="icon"><i class="fa fa-search"></i></span>
-                            <input type="search" id="search" placeholder="Search..." />
+                            <input type="search" id="search"/>
                         </div>
                     </div>
                     {/* <div class="col-sm-12">
