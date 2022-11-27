@@ -1,14 +1,32 @@
 #footer {
+    .row{
+        width: 100%;
+        height: 31px;
+        margin: 0 auto;
+        position: relative;
+        padding: 0 15px;
+        i{
+            padding: 7px 0;
+            color: #3030306E;
+        }
+        input{
+            border-radius: 30px;
+            border: none;
+        }
+        span{
+            width: 93%;
+        }
+    }
     .container-1 {
-        width: 300px;
+        width: 100%;
         vertical-align: middle;
         white-space: nowrap;
         position: relative;
     }
     .container-1 input#search {
-        width: 300px;
-        height: 50px;
-        background: #2b303b;
+        width: 100%;
+        height: 41px;
+        background: #fff;
         border: none;
         font-size: 10pt;
         float: left;
@@ -16,7 +34,7 @@
         padding-left: 45px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
-        border-radius: 5px;
+        border-radius: 30px;
     }
     .container-1 input#search::-webkit-input-placeholder {
         color: #65737e;
@@ -39,7 +57,7 @@
         position: absolute;
         top: 50%;
         margin-left: 17px;
-        margin-top: 17px;
+        margin-top: 10px;
         z-index: 1;
         color: #4f5b66;
       }

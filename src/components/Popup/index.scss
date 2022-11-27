@@ -35,12 +35,23 @@
         text-shadow: 0 1px 0 #fff;
         opacity: 0.5;
     }
+    h1{
+        padding: 14px 0 0;
+        font-family: "Montserrat";
+    }
+    p{
+        font-family: "Montserrat-thin";
+        color: #AFB0B1;
+        width: 91%;
+        text-align: left;
+    }
     button {
         background-color: #47c3ed;
         border-radius: 20px;
         border: none;
         width: 231px;
         height: 36px;
+        color: #fff;
     }
     
 }
