@@ -7,7 +7,7 @@ export default function Footer() {
             <div className='container'>
                 <div className='row text-left'>
                     <span class="icon position-absolute"><i class="fa fa-search"></i></span>
-                    <input type="search" id="search" />
+                    <input type="search" id="search" className='text-center'/>
                 </div>
             </div>
         </section>
