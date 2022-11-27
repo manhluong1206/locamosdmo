@@ -13,7 +13,7 @@ export default function Popup(props) {
                                 <img src={require('../../assets/images/banner-popup.svg').default} />
                             </div>
                             <div className='row title d-flex justify-content-center align-items-center text-center'>
-                                <h1 className='text-light fs-4'>Pasukan Tentara</h1>
+                                <h1 className='popup_inner__title text-light fs-4'>Pasukan Tentara</h1>
                                 <p>This game is very fun telling the story of a wise prince. this game is 3d and very visualization </p>
                                 <div classname="modal-content-block__btn">
                                     <button>Play now</button>
