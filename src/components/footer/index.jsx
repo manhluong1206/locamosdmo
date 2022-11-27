@@ -8,18 +8,10 @@ export default function Footer() {
                 <div className='row pl-4 pr-4'>
                     <div class="box">
                         <div class="container-1">
-                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <span class="icon text-left"><i class="fa fa-search"></i></span>
                             <input type="search" id="search"/>
                         </div>
                     </div>
-                    {/* <div class="col-sm-12">
-                        <div class="search-container">
-                            <form action="/action_page.php">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                                <input type="text" name="search" />
-                            </form>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </section>
