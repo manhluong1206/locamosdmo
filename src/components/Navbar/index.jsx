@@ -9,7 +9,7 @@ export default function Navbar() {
                     <div class="row">
                         <div class="col">
                             <div class="header__logo">
-                                <img src={require('../../assets/images/logo-text.svg').default} className="w-100"/>
+                                <img src={require('../../assets/images/logo-text.svg').default}/>
                             </div>
                         </div>
                         <div class="col">

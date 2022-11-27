@@ -17,7 +17,7 @@ export default function Redeem() {
                         <div className="redeem__grid">
                             <div className="redeem__item">
                                 <div className="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
+                                    <img src={require('../../assets/images/caro.svg').default} onClick={togglePopup} />
                                 </div>
                                 <div className="redeem__item title">
                                     <h3>Flower Violet</h3>
@@ -32,7 +32,7 @@ export default function Redeem() {
                         <div className="redeem__grid">
                             <div class="redeem__item">
                                 <div class="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
+                                    <img src={require('../../assets/images/chichbongbong.svg').default} onClick={togglePopup} />
                                 </div>
                                 <div class="redeem__item title">
                                     <h3>Flower Violet</h3>
@@ -48,7 +48,7 @@ export default function Redeem() {
                         <div class="redeem__grid">
                             <div class="redeem__item">
                                 <div class="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
+                                    <img src={require('../../assets/images/flapbird.svg').default} onClick={togglePopup} />
                                 </div>
                                 <div class="redeem__item title">
                                     <h3>Flower Violet</h3>
@@ -62,7 +62,7 @@ export default function Redeem() {
                         <div class="redeem__grid">
                             <div class="redeem__item">
                                 <div class="redeem__item img">
-                                    <img src={require('../../assets/images/bg-img.svg').default} onClick={togglePopup} />
+                                    <img src={require('../../assets/images/goldegg.svg').default} onClick={togglePopup} />
                                 </div>
                                 <div class="redeem__item title">
                                     <h3>Flower Violet</h3>
