@@ -3,23 +3,11 @@ import './index.scss'
 
 export default function Footer() {
     return (
-        <section id='footer' className='footer'>
+        <section id='footer' className='footer mt-2 pt-2 pb-2'>
             <div className='container'>
-                <div className='row pl-4 pr-4'>
-                    <div class="box">
-                        <div class="container-1">
-                            <span class="icon"><i class="fa fa-search"></i></span>
-                            <input type="search" id="search" placeholder="Search..." />
-                        </div>
-                    </div>
-                    {/* <div class="col-sm-12">
-                        <div class="search-container">
-                            <form action="/action_page.php">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                                <input type="text" name="search" />
-                            </form>
-                        </div>
-                    </div> */}
+                <div className='row text-left'>
+                    <span class="icon position-absolute"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" className='text-center'/>
                 </div>
             </div>
         </section>
